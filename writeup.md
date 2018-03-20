@@ -14,13 +14,15 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[image1]: ./examples/model.png "Model Visualization"
+[image2]: ./examples/normal.png "Grayscaling"
+[image3]: ./examples/recovery-1.png "Recovery Image"
+[image4]: ./examples/recovery-2.png "Recovery Image"
+[image5]: ./examples/recovery-3.png "Recovery Image"
+[image6]: ./examples/flip-before.png "Normal Image"
+[image7]: ./examples/flip-after.png "Flipped Image"
+[image8]: ./examples/counter-clockwise.png "Grayscaling"
+
 
 ## Rubric Points
 
