@@ -57,9 +57,6 @@ train_samples, validation_samples = train_test_split(samples, test_size=0.1)
 train_generator = generator(train_samples, batch_size=batch_size)
 validation_generator = generator(validation_samples, batch_size=batch_size)
 
-print(X_train.shape, y_train.shape)
-print(X_valid.shape, y_valid.shape)
-
 model = Sequential()
 model.add(Lambda(lambda x: x/255.0 - 0.5, input_shape=(160, 320, 3)))
 #model.add(BatchNormalization(input_shape=(160, 320, 3)))
