@@ -33,14 +33,14 @@ def generator(samples, batch_size=32):
                     # normal
                 if flag == 0:
                     name = './data/IMG/'+batch_sample[0].split('/')[-1]
-                    center_image = cv2.imread(name)[:,:,::-1]
+                    center_image = cv2.imread(name)[:,:,::-1] # BGR --> RGB
                     center_angle = float(batch_sample[3])
                     images.append(center_image)
                     angles.append(center_angle)
                 else:
                     # flip image and angle
                     name = './data/IMG/'+batch_sample[0].split('/')[-1]
-                    center_image = cv2.flip(cv2.imread(name), 1)[:,:,::-1]
+                    center_image = cv2.flip(cv2.imread(name), 1)[:,:,::-1] # BGR --> RGB
                     center_angle = float(batch_sample[3]) * -1.0
                     images.append(center_image)
                     angles.append(center_angle)
